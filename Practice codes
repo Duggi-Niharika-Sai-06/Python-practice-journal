@@ -13,3 +13,17 @@ class Solution(object):
         num4=int(num2)
         num5=str(num3*num4)
         return num5
+Displaying combinations of given list
+
+
+class Solution(object):
+    def permute(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        return list(itertools.permutations(nums))
+        
+        
+        Note: I used itertools class's method permutations to do it https://docs.python.org/3/library/itertools.html#  please refer to this website for 
+        more methods like this eg. cartesian product, iterations, permutations etc.,
