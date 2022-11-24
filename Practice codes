@@ -27,3 +27,10 @@ class Solution(object):
         
         Note: I used itertools class's method permutations to do it https://docs.python.org/3/library/itertools.html#  please refer to this website for 
         more methods like this eg. cartesian product, iterations, permutations etc.,
+class Solution(object):
+    def permuteUnique(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        return list(itertools.combinations(nums,len(nums)))
