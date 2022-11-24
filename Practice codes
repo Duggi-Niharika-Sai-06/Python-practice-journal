@@ -1,1 +1,15 @@
+Multiplying 2 strings 
 
+when 2 numbers are given in a string for mat you need to use int() method to convert them to int and multiply them
+
+class Solution(object):
+    def multiply(self, num1, num2):
+        """
+        :type num1: str
+        :type num2: str
+        :rtype: str
+        """
+        num3=int(num1)
+        num4=int(num2)
+        num5=str(num3*num4)
+        return num5
