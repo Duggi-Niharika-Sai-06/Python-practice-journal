@@ -59,6 +59,13 @@ x=input("enter a word")
 y=x[::-1]
 print(y)
 
+ print("checking about the palindrome")
+
+if x==y:
+    print("ok")
+else:
+    print("No")
+
 
 
 
