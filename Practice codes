@@ -53,3 +53,15 @@ if found==False:
     
     
     
+Reverse a string:
+
+x=input("enter a word")
+y=x[::-1]
+print(y)
+
+
+
+
+
+    
+    
